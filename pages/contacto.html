@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Practico 1</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+	<link rel="stylesheet" href="../fontawesome/css/all.css">
+
+</head>
+
+<body>
+
+	<header>
+		<h2><a href="../index.html">E.L.A.</a></h2>
+		<nav>
+			<li><a href="../index.html">Home</a></li>
+			<li><a href="#">Cursos</a></li>
+			<li><a href="servicios.html">Servicios</a></li>
+			<li><a href="#">Nosotros</a></li>
+			<li><a href="#">Contacto</a></li>
+		</nav>
+	</header>
+
+
+	<section class="contact">
+		<form action="signup.html" method="post" id="contact_form">
+			<h3 class="title">Formulario de contacto</h3>
+			<div class="field">
+				<label for="name">Nombre:</label>
+			</div>
+			<div class="field">
+				<input type="text" id="name" name="name" placeholder="Nombre completo" />
+				<br><small></small>
+			</div>
+			<div class="field">
+				<label for="email">Email:</label>
+			</div>
+			<div class="field">
+				<input type="text" id="email" name="email" placeholder="Email" />
+				<br><small></small>
+			</div>
+			<div class="field">
+				<label for="consulta">Consulta:</label>
+			</div>
+			<div class="field">
+				<textarea rows="10" name="comment" form="contact_form" placeholder="Su consulta"></textarea>
+				<br><small></small>
+			</div>
+			<div class="field">
+				<button type="submit" class="button">Enviar</button>
+			</div>
+		</form>
+	</section>
+	<script src="../js/form.js"></script>
+
+
+
+	<footer>
+		<ul>
+			<li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+			<li><a href="#"><i class="fab fa-instagram-square"></i></a></li>
+			<li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+		</ul>
+		<p>Escuela de Luthería Argentina</p>
+		<p>Calle Falsa 123 - Ciudad Autónoma de Buenos Aires</p>
+		<p>Tel. 11-333-3333</p>
+		<p><a href="mailto:info@escueladelutheriaargentina.com.ar">info@escueladelutheriaargentina.com.ar</a></p>
+	</footer>
+
+</body>
+
+</html>
